@@ -15,7 +15,7 @@ contract RaffleTest is Test, CodeConstants {
     /*//////////////////////////////////////////////////////////////
                                  EVENTS
     //////////////////////////////////////////////////////////////*/
-    event RequestedRaffleWinner(uint256 indexed requestId);
+    event RequestedRaffleWinner(uint256 indexed requestID);
     event RaffleEnter(address indexed player);
     event WinnerPicked(address indexed player);
 
